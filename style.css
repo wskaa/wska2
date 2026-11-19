@@ -5,7 +5,7 @@ html {
 }
 html {
   background-image: url('./tlo.jpg');
-  background-size: contain;
+  background-size: 120% 120%;
 }
  body {
     color: black;
@@ -37,6 +37,7 @@ html {
 }
 .list {
   text-align: center;
+  font-weight: bold;
 }
 .seat {
   text-align: right;
