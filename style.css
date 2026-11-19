@@ -1,0 +1,67 @@
+html {
+  height: 100%;
+  background: 50% 50% no-repeat
+    url('data:image/svg+xml,<svg viewBox="-20 -5 60 40" width="140" xmlns="http://www.w3.org/2000/svg" opacity="0.2"><path d="M1 8l11-7 11 7v8l-11 7-11-7zm0 0l11 8 11-8m0 8L12 8 1 16M12 1v7m0 8v7" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/><text x="-12" y="32" font-size="5" font-family="monospace" fill="currentColor">Built on CodePen</text></svg>');;
+}
+html {
+  background: red;
+  background-image: url('./tlo.jpg');
+}
+ body {
+    color: black;
+    font-family: 'Times New Roman', serif;
+    font-size: 12px;
+  }
+  div {
+    background-size: cover;
+    position: relative;
+    margin: 1px 0px 1px 0px;
+  }
+  p {
+    padding: 10px
+    position: absolute;
+  }
+.welcome {
+  text-align: left;
+}
+.wska {
+    padding: 40px;
+}
+.wska p {  
+    font-family: 'Times New Roman', serif;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 85px;
+}
+.list {
+  text-align: center;
+}
+.seat {
+  text-align: right;
+  padding: 50px 0px 20px 0px;
+}
+.coffee {
+  text-align: right;
+  padding: 26px 0px 20px 0px;
+}
+.bottom {
+  padding: 90px 0px 10px 0px;
+}
+.bottom p {
+  position: relative;
+  top: 20px;
+  font-size: 10px;
+}
+li {
+  display: inline;
+  padding: 0px 15px 0px 15px;
+}
+ul {
+  position: relative;
+  right: 20px;
+}
+ a {
+  color: rgba(0,0,0,1);
+  }
