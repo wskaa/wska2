@@ -7,33 +7,31 @@ html {
   background-image: url('./tlo.jpg');
   background-size: contain;
 }
- body {
-    color: black;
-    font-family: 'Times New Roman', serif;
-    font-size: 12px;
+body {
+  color: black;
+  font-family: 'Times New Roman', serif;
+  font-size: 12px;
+}
+div {
+  background: white;
+  background-size: cover;
+  position: relative;
+  margin: 1px 0px 1px 0px;
   }
-  div {
-    background-size: cover;
-    position: relative;
-    margin: 1px 0px 1px 0px;
-  }
-  p {
-    padding: 10px
-    position: absolute;
-  }
+
 .welcome {
   text-align: left;
 }
 .wska {
-    padding: 100px;
+  padding: 100px;
 }
 .wska p {  
-    font-family: 'Times New Roman', serif;
-    font-size: 35px;
-    text-align: center;
-    font-weight: bold;
-    position: relative;
-    top: 145px;
+  font-family: 'Times New Roman', serif;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  top: 145px;
 }
 .list {
   text-align: center;
@@ -53,7 +51,6 @@ html {
 .bottom p {
   position: relative;
   top: 20px;
-  font-size: 10px;
 }
 li {
   display: inline;
@@ -63,6 +60,10 @@ ul {
   position: relative;
   right: 20px;
 }
- a {
+a {
   color: rgba(0,0,0,1);
+  }
+@media (max-width: 600px) {
+  .wska p {font-size: 26px;
+            top: 133px;} 
   }
