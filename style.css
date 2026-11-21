@@ -5,6 +5,7 @@ html {
 }
 html {
   background-image: url('./tlo.jpg');
+  background-size: contain;
 }
  body {
     color: black;
