@@ -13,7 +13,7 @@ html {
     font-size: 12px;
   }
   div {
-    background-size: cover;
+    background-size: contain;
     position: relative;
     margin: 1px 0px 1px 0px;
   }
