@@ -30,7 +30,7 @@ div {
   font-weight: bold;
   position: relative;
   top: 145px;
-   -webkit-text-stroke: 2px blue;
+   -webkit-text-stroke: 1px white;
 }
 .list {
   text-align: center;
