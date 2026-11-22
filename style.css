@@ -64,7 +64,6 @@ a {
 @media (max-width: 600px) {
   body {font-size: 12px;}
   .wska {padding: 100px;}
-  .wska p {font-size: 26px; top: 133px;} 
-  html {background-color: blue;}
+  .wska p {font-size: 26px; top: 145px;} 
   .seat {padding: 100px 0px 20px 0px;}
 }
