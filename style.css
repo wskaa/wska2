@@ -65,4 +65,5 @@ a {
 @media (max-width: 600px) {
   .wska p {font-size: 26px;
             top: 133px;} 
+  .seat {padding: 100px 0px 20px 0px;}
   }
