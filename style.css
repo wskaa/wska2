@@ -10,23 +10,22 @@ html {
 body {
   color: black;
   font-family: 'Times New Roman', serif;
-  font-size: 12px;
+  font-size: 15px;
 }
 div {
   background-size: cover;
   position: relative;
   margin: 1px 0px 1px 0px;
   }
-
 .welcome {
   text-align: left;
 }
 .wska {
-  padding: 100px;
+  padding: 90px;
 }
 .wska p {  
   font-family: 'Times New Roman', serif;
-  font-size: 35px;
+  font-size: 45px;
   text-align: center;
   font-weight: bold;
   position: relative;
@@ -63,7 +62,9 @@ a {
   color: rgba(0,0,0,1);
   }
 @media (max-width: 600px) {
-  .wska p {font-size: 26px;
-            top: 133px;} 
+  body {font-size: 12px;}
+  .wska {padding: 100px;}
+  .wska p {font-size: 26px; top: 133px;} 
+  html {background-color: blue;}
   .seat {padding: 100px 0px 20px 0px;}
-  }
+}
